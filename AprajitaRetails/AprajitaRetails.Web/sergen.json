@@ -1,0 +1,10 @@
+﻿{
+  "RootNamespace": "AprajitaRetails",
+  "ServerTypings": {
+    "Assemblies": [],
+    "LocalTexts": true
+  },
+  "Connections": [],
+  "BaseRowClasses": [],
+  "RemoveForeignFields": []
+}
