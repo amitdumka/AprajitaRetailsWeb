@@ -12,7 +12,7 @@ namespace AprajitaRetails.BasicSamples
         public const string Key = "AprajitaRetails.BasicSamples.HardcodedValuesEditor";
 
         public HardcodedValuesEditorAttribute()
-            : base (Key)
+            : base(Key)
         {
         }
     }

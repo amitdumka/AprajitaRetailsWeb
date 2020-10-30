@@ -12,7 +12,7 @@ namespace AprajitaRetails.Northwind
         public const string Key = "AprajitaRetails.Northwind.CustomerEditor";
 
         public CustomerEditorAttribute()
-            : base (Key)
+            : base(Key)
         {
         }
     }

@@ -12,7 +12,7 @@ namespace AprajitaRetails.Northwind
         public const string Key = "AprajitaRetails.Northwind.NotesEditor";
 
         public NotesEditorAttribute()
-            : base (Key)
+            : base(Key)
         {
         }
     }

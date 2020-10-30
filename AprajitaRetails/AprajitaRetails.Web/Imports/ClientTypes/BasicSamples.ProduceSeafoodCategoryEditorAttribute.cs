@@ -12,7 +12,7 @@ namespace AprajitaRetails.BasicSamples
         public const string Key = "AprajitaRetails.BasicSamples.ProduceSeafoodCategoryEditor";
 
         public ProduceSeafoodCategoryEditorAttribute()
-            : base (Key)
+            : base(Key)
         {
         }
     }

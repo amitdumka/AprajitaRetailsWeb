@@ -12,14 +12,14 @@ namespace AprajitaRetails.Administration
         public const string Key = "AprajitaRetails.Administration.PermissionCheckEditor";
 
         public PermissionCheckEditorAttribute()
-            : base (Key)
+            : base(Key)
         {
         }
 
         public Boolean ShowRevoke
         {
-            get { return GetOption<Boolean> ("showRevoke"); }
-            set { SetOption ("showRevoke", value); }
+            get { return GetOption<Boolean>("showRevoke"); }
+            set { SetOption("showRevoke", value); }
         }
     }
 }

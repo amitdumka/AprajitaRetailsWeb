@@ -12,14 +12,14 @@ namespace AprajitaRetails.Northwind
         public const string Key = "AprajitaRetails.Northwind.PhoneEditor";
 
         public PhoneEditorAttribute()
-            : base (Key)
+            : base(Key)
         {
         }
 
         public Boolean Multiple
         {
-            get { return GetOption<Boolean> ("multiple"); }
-            set { SetOption ("multiple", value); }
+            get { return GetOption<Boolean>("multiple"); }
+            set { SetOption("multiple", value); }
         }
     }
 }

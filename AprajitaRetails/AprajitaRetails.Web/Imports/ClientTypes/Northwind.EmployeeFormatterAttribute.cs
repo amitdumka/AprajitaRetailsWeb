@@ -12,14 +12,14 @@ namespace AprajitaRetails.Northwind
         public const string Key = "AprajitaRetails.Northwind.EmployeeFormatter";
 
         public EmployeeFormatterAttribute()
-            : base (Key)
+            : base(Key)
         {
         }
 
         public String GenderProperty
         {
-            get { return GetOption<String> ("genderProperty"); }
-            set { SetOption ("genderProperty", value); }
+            get { return GetOption<String>("genderProperty"); }
+            set { SetOption("genderProperty", value); }
         }
     }
 }

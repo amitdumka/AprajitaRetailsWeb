@@ -12,20 +12,20 @@ namespace AprajitaRetails.BasicSamples
         public const string Key = "AprajitaRetails.BasicSamples.InlineImageFormatter";
 
         public InlineImageFormatterAttribute()
-            : base (Key)
+            : base(Key)
         {
         }
 
         public String FileProperty
         {
-            get { return GetOption<String> ("fileProperty"); }
-            set { SetOption ("fileProperty", value); }
+            get { return GetOption<String>("fileProperty"); }
+            set { SetOption("fileProperty", value); }
         }
 
         public Boolean Thumb
         {
-            get { return GetOption<Boolean> ("thumb"); }
-            set { SetOption ("thumb", value); }
+            get { return GetOption<Boolean>("thumb"); }
+            set { SetOption("thumb", value); }
         }
     }
 }

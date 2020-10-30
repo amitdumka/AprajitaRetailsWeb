@@ -12,7 +12,7 @@ namespace AprajitaRetails.Administration
         public const string Key = "AprajitaRetails.Administration.RoleCheckEditor";
 
         public RoleCheckEditorAttribute()
-            : base (Key)
+            : base(Key)
         {
         }
     }

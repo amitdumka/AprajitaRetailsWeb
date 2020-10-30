@@ -12,26 +12,26 @@ namespace AprajitaRetails.Common
         public const string Key = "AprajitaRetails.Common.EnumSelectFormatter";
 
         public EnumSelectFormatterAttribute()
-            : base (Key)
+            : base(Key)
         {
         }
 
         public Boolean AllowClear
         {
-            get { return GetOption<Boolean> ("allowClear"); }
-            set { SetOption ("allowClear", value); }
+            get { return GetOption<Boolean>("allowClear"); }
+            set { SetOption("allowClear", value); }
         }
 
         public String EmptyItemText
         {
-            get { return GetOption<String> ("emptyItemText"); }
-            set { SetOption ("emptyItemText", value); }
+            get { return GetOption<String>("emptyItemText"); }
+            set { SetOption("emptyItemText", value); }
         }
 
         public String EnumKey
         {
-            get { return GetOption<String> ("enumKey"); }
-            set { SetOption ("enumKey", value); }
+            get { return GetOption<String>("enumKey"); }
+            set { SetOption("enumKey", value); }
         }
     }
 }

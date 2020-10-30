@@ -12,7 +12,7 @@ namespace AprajitaRetails.Northwind
         public const string Key = "AprajitaRetails.Northwind.EmployeeListFormatter";
 
         public EmployeeListFormatterAttribute()
-            : base (Key)
+            : base(Key)
         {
         }
     }

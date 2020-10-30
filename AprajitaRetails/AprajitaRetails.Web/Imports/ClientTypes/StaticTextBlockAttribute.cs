@@ -12,32 +12,32 @@ namespace AprajitaRetails
         public const string Key = "AprajitaRetails.StaticTextBlock";
 
         public StaticTextBlockAttribute()
-            : base (Key)
+            : base(Key)
         {
         }
 
         public Boolean HideLabel
         {
-            get { return GetOption<Boolean> ("hideLabel"); }
-            set { SetOption ("hideLabel", value); }
+            get { return GetOption<Boolean>("hideLabel"); }
+            set { SetOption("hideLabel", value); }
         }
 
         public Boolean IsHtml
         {
-            get { return GetOption<Boolean> ("isHtml"); }
-            set { SetOption ("isHtml", value); }
+            get { return GetOption<Boolean>("isHtml"); }
+            set { SetOption("isHtml", value); }
         }
 
         public Boolean IsLocalText
         {
-            get { return GetOption<Boolean> ("isLocalText"); }
-            set { SetOption ("isLocalText", value); }
+            get { return GetOption<Boolean>("isLocalText"); }
+            set { SetOption("isLocalText", value); }
         }
 
         public String Text
         {
-            get { return GetOption<String> ("text"); }
-            set { SetOption ("text", value); }
+            get { return GetOption<String>("text"); }
+            set { SetOption("text", value); }
         }
     }
 }

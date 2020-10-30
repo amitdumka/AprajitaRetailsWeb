@@ -12,7 +12,7 @@ namespace AprajitaRetails.BasicSamples
         public const string Key = "AprajitaRetails.BasicSamples.FilteredLookupDetailEditor";
 
         public FilteredLookupDetailEditorAttribute()
-            : base (Key)
+            : base(Key)
         {
         }
     }

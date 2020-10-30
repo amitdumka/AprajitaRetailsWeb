@@ -12,7 +12,7 @@ namespace AprajitaRetails.BasicSamples
         public const string Key = "AprajitaRetails.BasicSamples.ChangingLookupTextEditor";
 
         public ChangingLookupTextEditorAttribute()
-            : base (Key)
+            : base(Key)
         {
         }
     }

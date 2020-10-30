@@ -12,7 +12,7 @@ namespace AprajitaRetails.Northwind
         public const string Key = "AprajitaRetails.Northwind.FreightFormatter";
 
         public FreightFormatterAttribute()
-            : base (Key)
+            : base(Key)
         {
         }
     }
